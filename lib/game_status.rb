@@ -48,8 +48,10 @@ end
 
 def over?(board)
   if won?(board) || full?(board)|| draw?(board)
+    puts "The game is over"
     return TRUE
   else
+    puts "The game is still in progress"
     return 
     FALSE
   end
