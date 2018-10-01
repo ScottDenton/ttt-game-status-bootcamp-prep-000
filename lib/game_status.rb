@@ -64,7 +64,7 @@ def over?(board)
   end
 end
 
-def win?(board)
+def winner?(board)
   if won?(board)
     if board[win_combo[1]] =="O"
   return "O"
