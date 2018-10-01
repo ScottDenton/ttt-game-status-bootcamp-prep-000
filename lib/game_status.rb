@@ -24,11 +24,13 @@ def won?(board)
 end
 
 
-def full? (board)
-  if board.any? {|i| i = ""}
+def full?(board)
+  if board.any? {|i| i = " "}
+  return FALSE
+else
+  return  TRUE
   
-  
-  
+end
 end
 
 
