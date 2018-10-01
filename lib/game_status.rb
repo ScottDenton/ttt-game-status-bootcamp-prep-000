@@ -25,7 +25,7 @@ end
 
 
 def full? (board)
-  board.any? {|i| i = ""}
+  if board.any? {|i| i = ""}
   
   
   
