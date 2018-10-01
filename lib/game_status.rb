@@ -45,7 +45,7 @@ def draw? (board)
   FALSE
   end
 else 
-  return FALSE
+  
 end
 
 
