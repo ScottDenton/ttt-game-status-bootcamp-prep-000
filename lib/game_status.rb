@@ -54,7 +54,6 @@ def over?(board)
   elsif !(won?(board)) || !(draw?(board))
        return FALSE
   end
-  
 end
 
 
