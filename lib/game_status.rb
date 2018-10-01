@@ -25,10 +25,10 @@ end
 
 
 def full?(board)
-  if !(board.any? {|i| i = " "})
-  return TRUE
+  if (board.any? {|i| i = " "})
+  return FALSE
 else
-  return  FALSE
+  return  TRUE
   
 end
 end
