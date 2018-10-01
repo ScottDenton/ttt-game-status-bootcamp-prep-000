@@ -65,9 +65,8 @@ def over?(board)
 end
 
 def win?(board)
-  winning_combo = won?(board)
-  if winning_combo == TRUE
-    if board[winning_combo[1]] =="O"
+  if won?(board)
+    if board[win_combo[1]] =="O"
   return "O"
 else
   return "X"
