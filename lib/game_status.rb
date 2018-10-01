@@ -30,7 +30,7 @@ def full?(board)
   return TRUE
 else
   puts "The board is not full"
-  return true 
+  return FALSE 
   end
 end
 
