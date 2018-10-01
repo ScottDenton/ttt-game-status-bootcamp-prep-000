@@ -36,13 +36,10 @@ end
 
 
 def full?(board)
-  if !(board.any? {|i| i = " "})
-    puts "The board is full"
-  return TRUE
-else
-  puts "The board is not full"
-  return FALSE 
-  end
+ if board.all? {|position| position =="X" || position =="O"}
+   return TRUE
+ else 
+   return FALSE
 end
 
 
