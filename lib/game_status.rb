@@ -27,10 +27,27 @@ end
 def full?(board)
   if (board.any? {|i| i = " "})
   return FALSE
-elsif !(board.any? {|i| i = " "})
+else
   return  TRUE
   end
 end
+
+
+def draw? (board)
+  if !(won?(board)) && (full?(board))
+    return TRUE
+  elsif !(won?(board)) && !(full?(board))
+  return 
+  FALSE
+else
+  return 
+  FALSE
+  end
+end
+
+
+
+
 
 
 
